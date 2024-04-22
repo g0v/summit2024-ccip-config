@@ -15,6 +15,7 @@
 
 # Extensions
 !*.json
+!*.md
 !*.py
 !*.sample
 

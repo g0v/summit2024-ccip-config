@@ -42,6 +42,7 @@ sync: ## sync local to server
 	--exclude '.env' \
 	--exclude '.git' \
 	--exclude '.gitignore' \
+	--exclude '*.md' \
 	--exclude '*sample*' \
 	--chown=opass:opass \
 	--ignore-times \
