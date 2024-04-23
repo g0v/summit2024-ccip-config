@@ -7,7 +7,12 @@
 # sure your domain's A/AAAA DNS records are properly pointed to
 # this machine's public IP, then replace ":80" below with your
 # domain name.
-opass.g0v.tw {
+
+http://opass.g0v.tw {
+    redir https://opass.g0v.tw{uri}
+}
+
+https://opass.g0v.tw {
     # Set this path to your site's directory.
     root * /usr/share/caddy
 
