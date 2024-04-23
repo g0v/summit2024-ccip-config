@@ -24,6 +24,9 @@ https://opass.g0v.tw {
 
     # Or serve a PHP site through php-fpm:
     # php_fastogi localhost: 9000
+
+    redir / https://summit.g0v.tw/
+
     reverse_proxy 127.0.0.1:5000
 }
 
