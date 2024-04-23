@@ -5,7 +5,7 @@
       "en-US": "Day 1 Check-in",
       "zh-TW": "Day 1 報到"
     },
-    "available_time": "2024/05/04 9:00 +0800",
+    "available_time": "2024/05/04 8:30 +0800",
     "expire_time": "2024/05/04 17:00 +0800",
     "countdown": 0,
     "related_scenario": [
@@ -22,7 +22,7 @@
       "en-US": "Welcome Kit",
       "zh-TW": "迎賓袋"
     },
-    "available_time": "2024/05/04 9:00 +0800",
+    "available_time": "2024/05/04 8:30 +0800",
     "expire_time": "2024/05/05 17:00 +0800",
     "countdown": 30,
     "lock_message": "Haven't Check-in",
@@ -39,7 +39,7 @@
       "en-US": "Day 2 Check-in",
       "zh-TW": "Day 2 報到"
     },
-    "available_time": "2024/05/05 9:00 +0800",
+    "available_time": "2024/05/05 8:30 +0800",
     "expire_time": "2024/05/05 17:00 +0800",
     "countdown": 0,
     "related_scenario": [
