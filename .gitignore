@@ -11,13 +11,14 @@
 # (Start with "!")
 
 # Directories
-
+!container
 
 # Extensions
 !*.json
 !*.md
 !*.py
 !*.sample
+!*.yml
 
 # Files
 !.gitignore
