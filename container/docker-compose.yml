@@ -22,3 +22,7 @@ services:
       - ../.env
     depends_on:
       - mongodb
+
+networks:
+    ccip-server_default:
+        external: true
