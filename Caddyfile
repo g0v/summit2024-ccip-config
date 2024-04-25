@@ -9,6 +9,7 @@
 # domain name.
 
 http://opass.g0v.tw {
+    redir / https://opass.g0v.tw/
     redir https://opass.g0v.tw{uri}
 }
 
