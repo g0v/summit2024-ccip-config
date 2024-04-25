@@ -30,6 +30,32 @@ caddy: ## replace Caddyfile and restart caddy server
 		&& systemctl start caddy \
 		&& systemctl status caddy
 
+go: ## rm->up->log container image via docker
+	make rm up log
+
+up: ## run Mongo & Mongo Express
+	$(call FUNC_MAKE_INIT) \
+	&& docker compose \
+	-f container/docker-compose.yml \
+	up \
+	--detach
+
+log: ## get Mongo & Mongo Express
+	$(call FUNC_MAKE_INIT) \
+	&& docker compose \
+	-f container/docker-compose.yml \
+	logs \
+	--follow \
+	--tail 20
+
+rm: ## rm Mongo & Mongo Express
+	$(call FUNC_MAKE_INIT) \
+	&& docker compose \
+	-f container/docker-compose.yml \
+	rm \
+	--stop \
+	--force
+
 ## ============================================================================
 ## Local-env Commands
 
