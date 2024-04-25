@@ -8,6 +8,8 @@ services:
     ports:
       - 27017:27017
     command: mongod --dbpath /tmp
+    networks:
+      - ccip-server_default
 
   # https://hub.docker.com/_/mongo-express
   mongo-express:
