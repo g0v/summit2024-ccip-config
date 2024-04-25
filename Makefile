@@ -70,6 +70,7 @@ sync: ## sync local to server
 	--exclude '.gitignore' \
 	--exclude '*.md' \
 	--exclude '*sample*' \
+	--exclude '*container*' \
 	--chown=opass:opass \
 	--ignore-times \
 	"${FOLDER_TO_SYNC}" \
