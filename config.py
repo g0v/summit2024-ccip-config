@@ -1,6 +1,6 @@
 MONGODB_SETTINGS = {
     'db': 'ccip',
-    'host': '127.0.0.1',
+    'host': 'opass_mongodb',
     'port': 27017
 }
 

@@ -1,6 +1,6 @@
 services:
   mongodb:
-    container_name: mav_mongodb
+    container_name: opass_mongodb
     image: mongodb/mongodb-community-server:4.4.8-ubuntu2004
     # AVX issue
     # https://github.com/docker-library/mongo/issues/485#issuecomment-891991814
@@ -11,7 +11,7 @@ services:
 
   # https://hub.docker.com/_/mongo-express
   mongo-express:
-    container_name: mav_express
+    container_name: opass_express
     image: mongo-express
     restart: always
     ports:
