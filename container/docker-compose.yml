@@ -22,6 +22,8 @@ services:
       - ../.env
     depends_on:
       - mongodb
+    networks:
+      - ccip-server_default
 
 networks:
     ccip-server_default:
