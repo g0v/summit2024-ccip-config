@@ -59,6 +59,8 @@ https://opass.g0v.tw {
     abort @announcement
 
     reverse_proxy 127.0.0.1:5000
+
+    import cors https://summit.opass.app
 }
 
 # Refer to the Caddy docs for more information:
