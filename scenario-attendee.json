@@ -10,22 +10,10 @@
     "countdown": 0,
     "related_scenario": [
       {
-        "id": "kit",
         "staff_query_used": true,
         "unlock": true
       }
     ]
-  },
-  "kit": {
-    "order": 1,
-    "display_text": {
-      "en-US": "Welcome Kit",
-      "zh-TW": "迎賓袋"
-    },
-    "available_time": "2024/05/04 8:30 +0800",
-    "expire_time": "2024/05/05 17:00 +0800",
-    "countdown": 30,
-    "lock_message": "Haven't Check-in"
   },
   "day2checkin": {
     "order": 2,
@@ -38,7 +26,6 @@
     "countdown": 0,
     "related_scenario": [
       {
-        "id": "kit",
         "staff_query_used": true,
         "unlock": true
       }
