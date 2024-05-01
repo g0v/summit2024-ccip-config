@@ -2,52 +2,31 @@
   "checkin": {
     "order": 0,
     "display_text": {
-      "en-US": "Check-in",
-      "zh-TW": "報到"
+      "en-US": "Day 0 (5/3) Check-in",
+      "zh-TW": "Day 0 (5/3) 報到"
     },
     "available_time": "2024/05/03 9:00 +0800",
-    "expire_time": "2024/05/05 17:00 +0800",
-    "countdown": 0,
-    "attr": [
-      {
-        "row_name": "diet",
-        "attr_name": "diet",
-        "value": {
-          "素": "vegetarian",
-          "葷": "meat"
-        }
-      }
-    ]
+    "expire_time": "2024/05/03 23:59 +0800",
+    "countdown": 0
   },
-  "kit": {
-    "order": 1,
+  "day1checkin": {
+    "order": 0,
     "display_text": {
-      "en-US": "Clothes",
-      "zh-TW": "領取衣服"
+      "en-US": "Day 1 (5/4) Check-in",
+      "zh-TW": "Day 1 (5/4) 報到"
     },
-    "available_time": "2024/05/04 8:00 +0800",
-    "expire_time": "2024/05/05 17:00 +0800",
-    "countdown": 36400,
-    "attr": [
-      {
-        "row_name": "T_shirt_size",
-        "attr_name": "T_shirt_size"
-      }
-    ]
+    "available_time": "2024/05/04 7:30 +0800",
+    "expire_time": "2024/05/04 17:00 +0800",
+    "countdown": 0
   },
-  "room": {
-    "order": 2,
+  "day2checkin": {
+    "order": 3,
     "display_text": {
-      "en-US": "room",
-      "zh-TW": "住宿"
+      "en-US": "Day 2 (5/5) Check-in",
+      "zh-TW": "Day 2 (5/5) 報到"
     },
-    "available_time": "2024/05/03 9:00 +0800",
+    "available_time": "2024/05/05 7:30 +0800",
     "expire_time": "2024/05/05 17:00 +0800",
-    "countdown": 36400,
-    "not_lock_rule": {
-      "row_name": "haveroom",
-      "value_match": "Y",
-      "not_match_disable_message": "很抱歉，您沒有申請住宿喔！"
-    }
+    "countdown": 0
   }
 }
