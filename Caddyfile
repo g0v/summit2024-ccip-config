@@ -52,12 +52,6 @@ https://opass.g0v.tw {
 
     redir / https://summit.g0v.tw/
 
-    @announcement {
-        method POST
-        path /announcement
-    }
-    abort @announcement
-
     reverse_proxy 127.0.0.1:5000
 
     import cors https://summit.opass.app
