@@ -7,13 +7,7 @@
     },
     "available_time": "2024/05/04 8:30 +0800",
     "expire_time": "2024/05/04 17:00 +0800",
-    "countdown": 0,
-    "related_scenario": [
-      {
-        "staff_query_used": true,
-        "unlock": true
-      }
-    ]
+    "countdown": 0
   },
   "day2checkin": {
     "order": 2,
@@ -23,12 +17,6 @@
     },
     "available_time": "2024/05/05 8:30 +0800",
     "expire_time": "2024/05/05 17:00 +0800",
-    "countdown": 0,
-    "related_scenario": [
-      {
-        "staff_query_used": true,
-        "unlock": true
-      }
-    ]
+    "countdown": 0
   }
 }
